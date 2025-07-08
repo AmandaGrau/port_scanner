@@ -1,6 +1,12 @@
 # Port Scanner (Socket & Nmap)
 A simple Python GUI application to scan open ports on a host using socket and Nmap.
 
+<div align="center">
+
+![Demo](assets/demo.gif)
+
+</div>
+
 ## Features
 
 - **Socket Scan**: Scan ports using Python's socket library.
