@@ -1,4 +1,4 @@
-from scanner import scan_port, socket_scan, nmap_scan, parse_nmap_ports
+from scanner import socket_scan, nmap_scan, parse_nmap_ports
 import subprocess
 import time
 
