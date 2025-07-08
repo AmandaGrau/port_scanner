@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import scrolledtext
 from threading import Thread
 from scanner import scan_port, socket_scan, nmap_scan, parse_nmap_ports
+from utils import validate_port_range
 
 def run_socket_scan(host, port_range, output_box, scan_button, stop_button):
     output_box.delete(1.0, tk.END)
@@ -41,11 +42,13 @@ def on_scan_click(host_entry, port_entry, scan_method_var, output_box, scan_butt
         output_box.insert(tk.END, f"Invalid port range: {e}\n")
         return
     
-    if method == "Socket Scan":
-        Thread(target=run_socket_scan, args=(host, port_range, output_box, scan_button, stop_button))
+    if method == "Socket":
+        t = Thread(target=run_socket_scan, args=(host, port_range, output_box, scan_button, stop_button))
+        t.start()
     else:
-        Thread(target=run_nmap_scan, args=(host, port_range, output_box, scan_button, stop_button))
-
+        t = Thread(target=run_nmap_scan, args=(host, port_range, output_box, scan_button, stop_button))
+        t.start()
+        
 # Disable the stop button
 def on_stop_click(): 
     stop_button.config(state=tk.DISABLED)
