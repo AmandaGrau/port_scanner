@@ -3,7 +3,13 @@ A simple Python GUI application to scan open ports on a host using socket and Nm
 
 <div align="center">
 
-![Demo](assets/demo.gif)
+![Demo](assets/socket_demo.gif)
+
+</div>
+
+<div align="center">
+
+![Demo](assets/nmap_demo.gif)
 
 </div>
 
