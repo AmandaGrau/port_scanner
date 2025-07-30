@@ -110,9 +110,8 @@ python3 scan_tests.py
 #### Created by Amanda Grau 🛠️
 
 [![Email](https://img.shields.io/badge/Email-EA580C?style=for-the-badge&logo=gmail&logoColor=white)](mailto:agrau.dev@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1E3A8A?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/AmandaGrau)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1E3A8A?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amandargrau)
 [![GitHub](https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmandaGrau)
-<!-- [![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=firefox&logoColor=white)](https://your-portfolio-link.com) -->
 
 #### Thank you for checking out my project. Happy scanning!
 
